@@ -1,4 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: Schriftname;
+    src: url(Palette_Mosaic/PaletteMosaic-Regular.ttf);
 }
+
+* {
+    font-family: "Schriftname", "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+@import "layout";
+@import "navigation";
+@import "persons";
