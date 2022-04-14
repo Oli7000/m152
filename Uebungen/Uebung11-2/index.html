@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoplayer mit JavaScript</title>
+</head>
+<body>
+    <video id="smallVideo" width="320" height="240" controls>
+        <source src="Video.mp4" type="video/mp4">
+    </video>
+    <button onclick="playVideo()" type="button">Play Video</button>
+    <button onclick="pauseVideo()" type="button">Pause Video</button>
+    <button onclick="setVolumeToHalf()" type="button">Set volume to 0.2</button>
+    <button onclick="setMaxVolume()" type="button">Set volume to 1.0</button>
+    <button onclick="playSpeed()" type="button">Slow motion</button>
+    <button onclick="loopVideo()" type="button">Slow motion</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
